@@ -1,8 +1,6 @@
 'use strict'
 
-import fs from 'fs';
-import path from 'path';
-import express, { Response, Request, NextFunction } from 'express';
+import express from 'express';
 import cors from 'cors';
 
 import videosRouter from './routes/video';
